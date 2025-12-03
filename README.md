@@ -69,17 +69,35 @@ If you don’t see the "GeoJSON + CSV Join + Plot Tool" right away:
 First double-click the **school toolbox** to load its contents.  
 Once it appears, you can double-click the tool to open the geoprocessing window.
 
-### 7. **Select Input Files**  
-In the tool window, select your **CSV** file from the *Data_school* folder and your **GeoJSON** file from the same folder.
+---
 
-### 8. **Set Output Location and Join Field**  
-Choose the *output_school* folder as your output location and enter **NAME** (uppercase) as the join attribute.
+### 7. Select Input Files
+Select Input Files:  
+In the tool window, you will have two input files to select:
 
-### 9. **Set Display Style and Run the Tool**  
-Select **"Graduated Color"** for the display style, name your output (e.g., `school2`), and run the tool.
+Select CSV File: Choose school.csv from the Data_school folder.
 
-### 10. **Check the Result**  
-After running the tool, you should see the resulting map appear, confirming everything worked correctly.
+Select GeoJSON File: Choose school-MapLayer.json from the same Data_school folder.
+
+### 8. Set Output Location
+Set Output Location:  
+Under the output settings, select the output_school folder as the folder to save your outputs.
+
+### 9. Set Join Attribute Name
+Set Join Attribute Name:  
+For the join attribute, type NAME in uppercase letters to ensure the CSV and feature class match correctly.
+
+### 10. Set Display Style for Map Layer
+Set Display Style for Map Layer:  
+Choose "Graduated Color" as the display style for the map layer to visualize the data.
+
+### 11. Choose Where to Save Graph PNG
+Choose Where to Save Graph PNG:  
+Finally, specify the path and file name for the output PNG file (e.g., output_school/SCHOOL.png).
+
+### 12. Check the Result
+Check the Result:  
+After running, you should see the resulting map appear, confirming everything worked correctly.
 
 ---
 
