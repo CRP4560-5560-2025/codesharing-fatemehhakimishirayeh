@@ -83,7 +83,6 @@ After running the tool, you should see the resulting map appear, confirming ever
 
 ---
 
-## Notes
+Note
 
-- Keep the folder structure the same when sharing the project so that paths remain valid.  
-- If the map does not look correct, make sure the symbology field is set to the percentage variable from S1401 (not a coordinate field).
+If you experience any confusion while following the steps in this README, I have included an additional PDF file titled “How to Run the Project.pdf”. This document provides the same instructions with step-by-step images, which may help clarify the process.
