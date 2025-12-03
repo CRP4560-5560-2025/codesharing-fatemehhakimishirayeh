@@ -28,22 +28,32 @@ Project Structure
   - `SCHOOL.png` – Plot exported from the toolbox
 
 How to Run the Code Package  
-1. Open the ArcGIS Pro project (`school.aprx`) included in this package.  
-2. In the Catalog pane, open the **School_Toolbox.pyt** toolbox.  
-3. Run the tool **GeoJSON + CSV Join + Plot Tool**.  
-4. Set the parameters as follows:  
-   - *Select CSV File:* choose `school.csv` from the `Data_school` folder.  
-   - *Select GeoJSON File:* choose `school-MapLayer.json` from the `Data_school` folder.  
-   - *Folder to Save Outputs:* select or create the `output_school` folder.  
-   - *Join Attribute Name (Both CSV & Feature Class):* `NAME`  
-   - *Display Style for Map Layer:* `Graduated Colors`  
-   - *Choose Where to Save Graph PNG:* path and file name for the PNG (e.g., `output_school/SCHOOL.png`).  
-5. The tool will:  
-   - Convert the GeoJSON file to a feature class in a file geodatabase,  
-   - Join the CSV table to the feature class using the `NAME` field,  
-   - Add the joined layer to the map with graduated colors,  
-   - Save a PNG plot summarizing the school enrollment data.
+1.	Download the Project Zip File:
+Download the entire project as a ZIP file and save it to a location of your choice.
+2.	Extract the Zip Folder:
+Extract the ZIP file to your chosen directory on your computer.
+3.	Open the GIS Project in ArcGIS Pro:
+Inside the extracted folder, open the GIS_school folder and double-click the school.aprx file to open it in ArcGIS Pro.
+4.	Open the Catalog Pane:
+In ArcGIS Pro, go to the View tab and select Catalog Pane to open it on the right side.
 
-Notes  
-- Keep the folder structure the same when sharing the project so that paths remain valid.  
-- If the map does not look correct, make sure the symbology field is set to the percentage variable from S1401 (not a coordinate field).
+5.	Add a Folder Connection if Needed:
+If you don’t see your folder in the Catalog Pane, right-click on Folders and choose Add New Folder Connection. Navigate to the folder where you extracted the files (e.g., the 556 folder), and add it so it appears in the Catalog.
+ 
+6.	Open the School Toolbox:
+Once the folder is connected, expand GIS_school and double-click the school toolbox. Open the tool named "GeoJSON + CSV Join + Plot Tool."
+ pic
+     •  Note: If you don’t see the "GeoJSON + CSV Join + Plot Tool" right away, first double-click the school toolbox to load its contents. Once it appears, you can then double-click the "GeoJSON + CSV Join + Plot Tool" to open the geoprocessing window.
+
+pic
+7.	Select Input Files:
+In the tool window, select your CSV file from the Data_school folder and your GeoJSON file from the same folder.
+pic
+8.	Set Output Location and Join Field:
+Choose the output_school folder as your output location and enter NAME (in uppercase) as the join attribute.
+9.	Set Display Style and Run the Tool:
+Select "Graduated Color" for the display style, name your output (e.g., school2), and run the tool.
+10.	Check the Result:
+After running, you should see the resulting map appear, confirming everything worked correctly.
+ pic
+
