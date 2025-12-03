@@ -49,11 +49,14 @@ pic
 7.	Select Input Files:
 In the tool window, select your CSV file from the Data_school folder and your GeoJSON file from the same folder.
 pic
+
 8.	Set Output Location and Join Field:
 Choose the output_school folder as your output location and enter NAME (in uppercase) as the join attribute.
-9.	Set Display Style and Run the Tool:
+
+10.	Set Display Style and Run the Tool:
 Select "Graduated Color" for the display style, name your output (e.g., school2), and run the tool.
-10.	Check the Result:
+
+12.	Check the Result:
 After running, you should see the resulting map appear, confirming everything worked correctly.
  pic
 
